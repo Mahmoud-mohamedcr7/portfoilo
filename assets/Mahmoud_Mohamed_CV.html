@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mahmoud Mohamed - CV</title>
+    <style>
+      :root{ --bg:#0b1020; --fg:#eaf0ff; --muted:rgba(234,240,255,.72); }
+      body{ margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background: radial-gradient(1200px 600px at 20% 10%, rgba(124,58,237,.22), transparent 60%), radial-gradient(900px 500px at 90% 20%, rgba(34,211,238,.16), transparent 60%), linear-gradient(180deg, #070a12, var(--bg)); color:var(--fg); }
+      .wrap{ max-width: 900px; margin: 0 auto; padding: 40px 18px 60px; }
+      .card{ border:1px solid rgba(255,255,255,.12); background: rgba(255,255,255,.06); border-radius: 18px; padding: 22px; }
+      h1{ margin:0 0 6px; letter-spacing:-0.02em; }
+      .muted{ color: var(--muted); }
+      .grid{ display:grid; grid-template-columns: 1fr; gap: 14px; margin-top: 16px; }
+      @media (min-width: 800px){ .grid{ grid-template-columns: 1fr 1fr; } }
+      .pill{ display:inline-block; padding: 7px 10px; border:1px solid rgba(255,255,255,.12); background: rgba(255,255,255,.05); border-radius: 999px; margin: 6px 6px 0 0; font-size: .92rem;}
+      .row{ display:flex; gap: 12px; flex-wrap: wrap; margin-top: 12px; }
+      a{ color:#9ae6ff; text-decoration:none; }
+      a:hover{ text-decoration:underline; }
+      .print{ margin-top: 14px; }
+      .btn{ display:inline-block; padding: 10px 14px; border-radius: 14px; border:1px solid rgba(255,255,255,.14); background: linear-gradient(135deg, rgba(34,211,238,.18), rgba(124,58,237,.18)); color: var(--fg); }
+      @media print{ .print{ display:none; } body{ background:#fff; color:#111; } .card{ border:1px solid #ddd; background:#fff; } a{ color:#111; } }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="card">
+        <h1>Mahmoud Mohamed</h1>
+        <div class="muted">Full Stack PHP Laravel 12 Developer</div>
+        <div class="row">
+          <span class="pill">PHP</span><span class="pill">Laravel 12</span><span class="pill">MySQL</span><span class="pill">Bootstrap 5</span><span class="pill">OOP</span><span class="pill">Git</span>
+        </div>
+        <p class="muted" style="margin-top:14px">
+          Passionate Full Stack Developer specializing in PHP and Laravel. I build modern, fast, and scalable web applications.
+        </p>
+        <div class="grid">
+          <div>
+            <h3 style="margin:10px 0 6px">Contact</h3>
+            <div class="muted">Email: <a href="mailto:engmahmoudcr1000@gmail.com">engmahmoudcr1000@gmail.com</a></div>
+            <div class="muted">Phone: <a href="tel:+201278692423">+201278692423</a></div>
+            <div class="muted">GitHub: <a href="https://github.com/Mahmoud-mohamedcr7/Mahmoud-mohamedcr7.git" target="_blank" rel="noreferrer">Mahmoud-mohamedcr7</a></div>
+            <div class="muted">LinkedIn: <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BqZx22X4aQgGaWnPigK05Eg%3D%3D" target="_blank" rel="noreferrer">Profile</a></div>
+          </div>
+          <div>
+            <h3 style="margin:10px 0 6px">Education</h3>
+            <div><strong>Computer Science</strong></div>
+            <div class="muted">Zagazig University — 2023–2027</div>
+          </div>
+        </div>
+
+        <div class="print">
+          <a class="btn" href="#" onclick="window.print(); return false;">Print / Save as PDF</a>
+          <span class="muted" style="margin-left:10px">Tip: In the print dialog, choose “Save as PDF”.</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
