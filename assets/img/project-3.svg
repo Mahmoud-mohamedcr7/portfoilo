@@ -1,0 +1,24 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Project placeholder image">
+  <defs>
+    <linearGradient id="p3" x1="0" y1="700" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="0.45" stop-color="#F97316"/>
+      <stop offset="0.75" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#p3)"/>
+  <rect x="80" y="90" width="1040" height="520" rx="28" fill="rgba(0,0,0,0.20)" stroke="rgba(255,255,255,0.16)"/>
+  <rect x="120" y="140" width="360" height="20" rx="10" fill="rgba(234,240,255,0.72)"/>
+  <rect x="120" y="180" width="520" height="14" rx="7" fill="rgba(234,240,255,0.44)"/>
+  <g opacity="0.95">
+    <rect x="120" y="240" width="960" height="22" rx="11" fill="rgba(34,211,238,0.50)"/>
+    <rect x="120" y="280" width="820" height="22" rx="11" fill="rgba(124,58,237,0.50)"/>
+    <rect x="120" y="320" width="880" height="22" rx="11" fill="rgba(249,115,22,0.36)"/>
+    <rect x="120" y="370" width="740" height="16" rx="8" fill="rgba(234,240,255,0.22)"/>
+    <rect x="120" y="395" width="690" height="16" rx="8" fill="rgba(234,240,255,0.18)"/>
+    <rect x="120" y="420" width="600" height="16" rx="8" fill="rgba(234,240,255,0.16)"/>
+  </g>
+  <text x="120" y="560" fill="rgba(234,240,255,0.92)" font-family="Inter, Arial" font-size="40" font-weight="700">Project Preview</text>
+  <text x="120" y="605" fill="rgba(234,240,255,0.70)" font-family="Inter, Arial" font-size="22">Replace this image with a real screenshot</text>
+</svg>
